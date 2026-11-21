@@ -1,0 +1,33 @@
+﻿# Backend
+target/
+*.jar
+*.war
+*.class
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Frontend (quand on l'aura)
+node_modules/
+dist/
+.angular/
+
+# Divers
+*.zip
+auth-logs.txt
